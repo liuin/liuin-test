@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle liuin-test",
+        "command": "liuin-test:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "liuin-test",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "liuin-test:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

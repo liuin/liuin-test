@@ -1,0 +1,8 @@
+module.exports =
+  activate: -> # ...
+
+  provideMyServiceV1: ->
+    adaptToLegacyAPI(myService)
+
+  provideMyServiceV2: ->
+    myService
